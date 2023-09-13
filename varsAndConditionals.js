@@ -44,4 +44,13 @@ for (let i = 1; i <= 3; i++){
 
 if (isDead === false){
     console.log('It is a miracle! Jon is alive after the bombardment.')
+
+
+
+    while (jonSnowHealth > 0){
+        console.log('Jamie punches Jon')
+        jonSnowHealth -= 5
+    }
+    console.log('Okay, Jon did not make it , sorry.')
 }
+
