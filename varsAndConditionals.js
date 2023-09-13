@@ -32,3 +32,16 @@ if (jonSnowHealth <= jamieLannisterAttack){
     console.log (`Jon Snows health is down to ${jonSnowHealth}`)
  }
 
+let isDead = false
+
+for (let i = 1; i <= 3; i++){
+    isDead = Math.random() > .5
+    if (isDead === true){
+        console.log(console.log(`Jon has died after ${i} rounds`))
+        break
+    }
+}
+
+if (isDead === false){
+    console.log('It is a miracle! Jon is alive after the bombardment.')
+}
